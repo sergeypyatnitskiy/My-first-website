@@ -1,0 +1,300 @@
+/* Фоны страниц начало */
+.main-page-body {
+  background-image: url(/backgrounds/background.jpg);
+  background-size: 100%;
+  min-height: 100vh;
+}
+
+.portfolio-body {
+  background-color: rgb(54, 54, 54);
+  height: 100%;
+}
+
+.price-body {
+  background-color: rgb(54, 54, 54);
+  height: 100%;
+}
+
+.blog-body {
+  background-color: rgb(54, 54, 54);
+  height: 100%;
+}
+
+.feedback-body {
+  background-color: rgb(54, 54, 54);
+  height: 100%;
+}
+
+.contacts-body {
+  background-color: rgb(54, 54, 54);
+  height: 100%;
+}
+/* Фоны страниц конец */
+
+/* Sergey Pyatnitskiy Photography */
+.logo-name {
+  list-style-type: none;
+  color: #fff;
+  margin: auto;
+  margin-left: 0;
+  padding: 1em;
+  font-family: "Alex Brush", cursive;
+  font-size: 30px;
+  font-stretch: extra-expanded;
+  width: 230px;
+  text-align: center;
+  height: 25%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 230px;
+}
+
+.container-menu {
+  height: auto;
+}
+
+.navbar {
+  padding: 1em;
+  list-style-type: none;
+  width: 15%;
+  text-align: left;
+  position: absolute;
+}
+
+.navbar-nav {
+  top: 20%;
+  margin: auto;
+  padding: 1em;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-style: normal;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+.nav-link {
+  color: rgb(168, 168, 168);
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline;
+  width: 100px;
+  font-family: "Caveat", cursive;
+}
+
+/* Анимация меню начало */
+.nav-link {
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-link:after {
+  background-color: #fff;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+.nav-link:hover:after,
+.nav-link:focus:after {
+  width: 100%;
+}
+/* Анимания меню конец */
+
+.card-row {
+  margin: auto;
+  width: 80%;
+  position: fixed;
+  left: 25%;
+  top: 20%;
+}
+
+.card-w img {
+  width: 90%;
+  margin-top: 1em;
+  border-radius: 50%;
+}
+.card-r img {
+  width: 90%;
+  margin-top: 1em;
+  border-radius: 50%;
+}
+.card-p img {
+  width: 90%;
+  margin-top: 1em;
+  border-radius: 50%;
+}
+
+.card-w {
+  display: inline-block;
+  color: #fff;
+  margin-right: 4em;
+  border: #fff thin;
+  border-style: outset;
+  border-radius: 5%;
+  width: 23%;
+  text-align: center;
+}
+
+.card-r {
+  display: inline-block;
+  color: #fff;
+  margin-right: 4em;
+  border: #fff thin;
+  border-style: outset;
+  border-radius: 5%;
+  width: 23%;
+  text-align: center;
+}
+.card-p {
+  display: inline-block;
+  color: #fff;
+  margin-right: 4em;
+  border: #fff thin;
+  border-style: outset;
+  border-radius: 5%;
+  width: 23%;
+  text-align: center;
+}
+
+.wedding-photo {
+  margin: auto;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+  border-radius: 5%;
+  font-family: "Caveat", cursive;
+  font-weight: lighter;
+}
+
+.report-photo {
+  margin: auto;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+  border-radius: 5%;
+  font-family: "Caveat", cursive;
+  font-weight: lighter;
+}
+
+.portrait-photo {
+  margin: auto;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+  border-radius: 5%;
+  font-family: "Caveat", cursive;
+  font-weight: lighter;
+}
+
+/* ряд прайса  */
+.price-row {
+  position: fixed;
+  left: 20%;
+  top: 20%;
+  width: 80%;
+}
+
+/* прайс свадьба */
+.price-w {
+  display: inline-block;
+  color: #fff;
+  margin-right: 1em;
+  padding: 0;
+  border: #fff thin;
+  border-style: outset;
+  border-radius: 5%;
+  width: 30%;
+  height: 50%;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.price-w :hover {
+  background-image: url("/images/wedding.png");
+  background-size: cover;
+}
+
+/* прайс репортаж */
+.price-r {
+  display: inline-block;
+  color: #fff;
+  margin-right: 1em;
+  padding: 0;
+  border: #fff thin;
+  border-style: outset;
+  border-radius: 5%;
+  width: 30%;
+  height: 50%;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.price-r :hover {
+  background-image: url("/images/report.png");
+  background-size: cover;
+}
+
+/* прайс портрет */
+.price-p {
+  display: inline-block;
+  color: #fff;
+  margin-right: 1em;
+  padding: 0;
+  border: #fff thin;
+  border-style: outset;
+  border-radius: 5%;
+  width: 30%;
+  height: 50%;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.price-p :hover {
+  background-image: url("/images/portrait.png");
+  background-size: cover;
+}
+
+/* контакты */
+.my-contacts {
+  font-family: "Caveat", cursive;
+  color: #fff;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  width: 50%;
+  padding-left: 20%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  max-width: 30%;
+}
+
+.my-information {
+  text-align: center;
+  margin: auto;
+}
